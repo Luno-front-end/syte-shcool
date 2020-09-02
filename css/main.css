@@ -256,6 +256,93 @@ summary {
 }
 
 body {
-  background-color: black;
+  background-color: rgba(125, 255, 222, 0.384);
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+.standart-a {
+  text-decoration: none;
+  display: block;
+}
+
+.standart-ul {
+  list-style-type: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.hiro {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .hiro {
+    height: 250px;
+    background-image: url(../images/World-in-your-hands-1-1200x553.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hiro {
+    height: 350px;
+    background-image: url(../images/World-in-your-hands-1-1200x553.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hiro {
+    height: 420px;
+    background-image: url(../images/World-in-your-hands-1-1200x553.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1400px;
+  }
+}
+
+.general-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.li-nav:not(:last-child) {
+  margin-right: 100px;
+}
+
+.hiro {
+  color: #ffe551;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,12 @@
+.general-nav {
+  display: flex;
+}
+.ul-nav {
+  //   display: flex;
+  //   margin-left: 85px;
+}
+.li-nav {
+  &:not(:last-child) {
+    margin-right: 100px;
+  }
+}

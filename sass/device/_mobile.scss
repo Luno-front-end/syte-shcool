@@ -1,3 +1,26 @@
-body {
-  background-color: black;
+.hiro {
+  //   background-image: url(../images/World-in-your-hands-1-1200x553.jpg);
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and (max-width: $tablets - 1) {
+    height: 250px;
+    background-image: url(../images/World-in-your-hands-1-1200x553.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 480px;
+  }
+  @media screen and (min-width: $tablets) {
+    height: 350px;
+    background-image: url(../images/World-in-your-hands-1-1200x553.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 768px;
+  }
+  @media screen and (min-width: $desktop) {
+    height: 420px;
+    background-image: url(../images/World-in-your-hands-1-1200x553.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1400px;
+  }
 }
