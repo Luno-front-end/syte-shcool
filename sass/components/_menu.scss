@@ -4,9 +4,15 @@
 .ul-nav {
   //   display: flex;
   //   margin-left: 85px;
+  @media screen and (max-width: $tablets - 1) {
+    // display: flex;
+    margin-left: auto;
+  }
 }
 .li-nav {
-  &:not(:last-child) {
-    margin-right: 100px;
+  @media screen and (min-width: $tablets) {
+    &:not(:last-child) {
+      margin-right: 100px;
+    }
   }
 }

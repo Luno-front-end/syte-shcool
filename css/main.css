@@ -284,19 +284,6 @@ body {
   }
 }
 
-.standart-a {
-  text-decoration: none;
-  display: block;
-}
-
-.standart-ul {
-  list-style-type: none;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-right: 0px;
-  padding-left: 0px;
-}
-
 .hiro {
   margin-left: auto;
   margin-right: auto;
@@ -332,14 +319,35 @@ body {
   }
 }
 
+.standart-a {
+  text-decoration: none;
+  display: block;
+}
+
+.standart-ul {
+  list-style-type: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
 .general-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.li-nav:not(:last-child) {
-  margin-right: 100px;
+@media screen and (max-width: 767px) {
+  .ul-nav {
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .li-nav:not(:last-child) {
+    margin-right: 100px;
+  }
 }
 
 .hiro {
